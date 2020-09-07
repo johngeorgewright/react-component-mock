@@ -25,7 +25,7 @@ export default function App() {
 ```typescript
 // __mocks__/Hello.tsx
 
-import reactComponentMock from 'react-component-mock'
+import reactComponentMock from '@johngw/react-component-mock'
 
 export default reactComponentMock('Hello')
 ```
