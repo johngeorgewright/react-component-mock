@@ -2,7 +2,6 @@
   "name": "@johngw/react-component-mock",
   "version": "1.0.0",
   "description": "Compose and react upon redux actions",
-  "private": true,
   "main": "dist/react-component-mock.js",
   "scripts": {
     "prebuild": "npm run clean",
