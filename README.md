@@ -20,7 +20,7 @@ import Hello from './Hello'
 export default function App() {
   return <Hello name="World" />
 }
-````
+```
 
 ```typescript
 // __mocks__/Hello.tsx
@@ -46,3 +46,4 @@ test('App', () => {
   `)
 })
 ```
+````
