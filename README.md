@@ -1,8 +1,43 @@
-# @johngeorgewright/ts-module
+# react-component-mock
 
-This is a template repository for creating a NPM package with TypeScript.
+A simple way to mock react components when testing.
 
-## Setting up
+The module creates a new component which will render a string representation of the component and it's props
 
-1. Change all references of `ts-module` to your new package name
-1. Remove the `private` property from `package.json`
+## Usage (Jest)
+
+```typescript
+// App.tsx
+
+import React from 'react'
+import Hello from './Hello'
+
+export default function App() {
+  return <Hello name="World" />
+}
+```
+
+```typescript
+// __mocks__/Hello.tsx
+
+import reactComponentMock from 'react-component-mock'
+
+export default reactComponentMock('Hello')
+```
+
+```typescript
+// __tests__/App.test.tsx
+
+import React from 'react'
+import { render } from '@testing-library/react'
+import App from '../App'
+
+jest.mock('../Hello')
+
+test('App', () => {
+  const { container } = render(<App />)
+  expect(container).toMatchInlineSnapshot(`
+    {Hello name=\`World\`}
+  `)
+})
+```
