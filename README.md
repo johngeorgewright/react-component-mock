@@ -4,6 +4,11 @@ A simple way to mock react components when testing.
 
 The module creates a new component which will render a string representation of the component and it's props
 
+## Install
+
+````
+npm i -D @johngw/react-component-mock
+
 ## Usage (Jest)
 
 ```typescript
@@ -15,7 +20,7 @@ import Hello from './Hello'
 export default function App() {
   return <Hello name="World" />
 }
-```
+````
 
 ```typescript
 // __mocks__/Hello.tsx
