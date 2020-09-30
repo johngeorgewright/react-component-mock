@@ -27,15 +27,37 @@ function stringifyPropValue(value: any): string {
       return value === null
         ? 'null'
         : Array.isArray(value)
-        ? `[${value.map(stringifyPropValue).join(', ')}]`
-        : value.hasOwnProperty('$$typeof') // react component
-        ? reactComponentMock(
-            typeof value.type === 'function' ? value.type.name : value.type
-          )(value.props)
-        : `{ ${stringifyProps(value)} }`
+        ? stringifyArray(value)
+        : isReactComponent(value)
+        ? strinigifyReactComponent(value)
+        : stringifyObject(value)
     case 'string':
       return `\`${value}\``
     default:
       return value.toString()
   }
+}
+
+function stringifyArray(array: any[]) {
+  return `[${array.map(stringifyPropValue).join(', ')}]`
+}
+
+function strinigifyReactComponent(component: Component) {
+  return reactComponentMock(
+    typeof component.type === 'function' ? component.type.name : component.type
+  )(component.props)
+}
+
+function stringifyObject(object: Record<string | symbol, any>) {
+  return `{ ${stringifyProps(object)} }`
+}
+
+function isReactComponent(x: any): x is Component {
+  return x.hasOwnProperty('$$typeof') && x.hasOwnProperty('type')
+}
+
+interface Component {
+  $$typeof: symbol
+  type: string | Function
+  props?: Record<string | symbol, any>
 }
