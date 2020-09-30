@@ -29,7 +29,7 @@ function stringifyPropValue(value: any): string {
         : Array.isArray(value)
         ? stringifyArray(value)
         : isReactComponent(value)
-        ? strinigifyReactComponent(value)
+        ? stringifyReactComponent(value)
         : stringifyObject(value)
     case 'string':
       return `\`${value}\``
@@ -42,7 +42,7 @@ function stringifyArray(array: any[]) {
   return `[${array.map(stringifyPropValue).join(', ')}]`
 }
 
-function strinigifyReactComponent(component: Component) {
+function stringifyReactComponent(component: Component) {
   return reactComponentMock(
     typeof component.type === 'function' ? component.type.name : component.type
   )(component.props)
