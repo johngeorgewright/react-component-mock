@@ -1,7 +1,7 @@
 {
   "name": "@johngw/react-component-mock",
   "version": "1.0.0",
-  "description": "Compose and react upon redux actions",
+  "description": "A simple way to mock react components when testing.",
   "main": "dist/react-component-mock.js",
   "scripts": {
     "prebuild": "npm run clean",
