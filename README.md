@@ -6,7 +6,7 @@ The module creates a new component which will render a string representation of 
 
 ## Install
 
-````
+```
 npm i -D @johngw/react-component-mock
 ```
 
@@ -47,4 +47,7 @@ test('App', () => {
   `)
 })
 ```
-````
+
+```
+
+```
