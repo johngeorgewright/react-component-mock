@@ -8,6 +8,7 @@ The module creates a new component which will render a string representation of 
 
 ````
 npm i -D @johngw/react-component-mock
+```
 
 ## Usage (Jest)
 
