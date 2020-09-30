@@ -1,3 +1,4 @@
+import React from 'react'
 import reactComponentMock from './react-component-mock'
 
 test('no props', () => {
@@ -29,4 +30,20 @@ test('nested', () => {
   expect(
     reactComponentMock('Foo')({ obj: { obj2: { foo: 'bar' } } })
   ).toMatchInlineSnapshot(`"{Foo obj={ obj2={ foo=\`bar\` } }}"`)
+})
+
+test('html components', () => {
+  expect(
+    reactComponentMock('Foo')({ p: <p id="bar">Foo Bar</p> })
+  ).toMatchInlineSnapshot(`"{Foo p={p id=\`bar\` children=\`Foo Bar\`}}"`)
+})
+
+test.only('custom components', () => {
+  function Bar() {
+    return <p>bar</p>
+  }
+
+  expect(reactComponentMock('Foo')({ bar: <Bar /> })).toMatchInlineSnapshot(
+    `"{Foo bar={Bar}}"`
+  )
 })

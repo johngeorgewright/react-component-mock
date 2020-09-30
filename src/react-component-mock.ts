@@ -1,34 +1,41 @@
 export default function reactComponentMock(name: string) {
-  return (props: Record<string, any> = {}) => {
+  return (props: Record<string | symbol, any> = {}) => {
     const stringifiedProps = stringifyProps(props)
     return `{${name}${stringifiedProps ? ` ${stringifiedProps}` : ''}}`
   }
 }
 
-function stringifyProps(props: Record<string, any>) {
+function stringifyProps(props: Record<string | symbol, any>) {
   return Object.entries(props)
     .map(([key, value]) => stringifyProp(key, value))
     .join(' ')
 }
 
-function stringifyProp(key: string, value: any): string {
+function stringifyProp(key: string | symbol, value: any): string {
   switch (typeof value) {
     case 'boolean':
-      return !key ? `!${key}` : key
+      return !value ? `!${key.toString()}` : key.toString()
     default:
-      return `${key}=${stringifyPropValue(value)}`
+      const m = key.toString()
+      return `${m}=${stringifyPropValue(value)}`
   }
 }
 
 function stringifyPropValue(value: any): string {
   switch (typeof value) {
     case 'object':
-      return Array.isArray(value)
+      return value === null
+        ? 'null'
+        : Array.isArray(value)
         ? `[${value.map(stringifyPropValue).join(', ')}]`
+        : value.hasOwnProperty('$$typeof') // react component
+        ? reactComponentMock(
+            typeof value.type === 'function' ? value.type.name : value.type
+          )(value.props)
         : `{ ${stringifyProps(value)} }`
     case 'string':
       return `\`${value}\``
     default:
-      return value
+      return value.toString()
   }
 }
