@@ -38,7 +38,7 @@ test('html components', () => {
   ).toMatchInlineSnapshot(`"{Foo p={p id=\`bar\` children=\`Foo Bar\`}}"`)
 })
 
-test.only('custom components', () => {
+test('custom components', () => {
   function Bar() {
     return <p>bar</p>
   }
