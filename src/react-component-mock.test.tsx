@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Component } from 'react'
 import reactComponentMock from './react-component-mock'
 
 test('no props', () => {
@@ -46,4 +46,20 @@ test('custom components', () => {
   expect(reactComponentMock('Foo')({ bar: <Bar /> })).toMatchInlineSnapshot(
     `"{Foo bar={Bar}}"`
   )
+})
+
+test('component references', () => {
+  function Bar() {
+    return <p>bar</p>
+  }
+
+  class Mung extends Component {
+    render() {
+      return <p>mung</p>
+    }
+  }
+
+  expect(
+    reactComponentMock('Foo')({ bar: Bar, mung: Mung })
+  ).toMatchInlineSnapshot(`"{Foo bar=(Bar) mung=(Mung)}"`)
 })

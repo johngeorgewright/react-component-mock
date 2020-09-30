@@ -33,6 +33,8 @@ function stringifyPropValue(value: any): string {
         : stringifyObject(value)
     case 'string':
       return `\`${value}\``
+    case 'function':
+      return `(${value.name})`
     default:
       return value.toString()
   }
