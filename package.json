@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "A simple way to mock react components when testing.",
   "main": "dist/react-component-mock.js",
+  "private": false,
   "scripts": {
     "prebuild": "npm run clean",
     "build": "tsc",
