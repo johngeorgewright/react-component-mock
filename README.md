@@ -10,6 +10,13 @@ The module creates a new component which will render a string representation of 
 npm i -D @johngw/react-component-mock
 ```
 
+When working on the source code:
+
+```
+npm i
+npx husky install
+```
+
 ## Usage (Jest)
 
 ```typescript
