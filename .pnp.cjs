@@ -35,7 +35,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {
           "packageLocation": "./",
           "packageDependencies": [
-            ["@commitlint/cli", "npm:16.0.2"],
+            ["@commitlint/cli", "npm:16.0.3"],
             ["@commitlint/config-conventional", "npm:16.0.0"],
             ["@types/jest", "npm:27.4.0"],
             ["@types/node", "npm:16.11.21"],
@@ -1020,10 +1020,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["@commitlint/cli", [
-        ["npm:16.0.2", {
-          "packageLocation": "./.yarn/cache/@commitlint-cli-npm-16.0.2-0fc722cf95-20760e0f8d.zip/node_modules/@commitlint/cli/",
+        ["npm:16.0.3", {
+          "packageLocation": "./.yarn/cache/@commitlint-cli-npm-16.0.3-efc8ffa99f-d4aeb8e32a.zip/node_modules/@commitlint/cli/",
           "packageDependencies": [
-            ["@commitlint/cli", "npm:16.0.2"],
+            ["@commitlint/cli", "npm:16.0.3"],
             ["@commitlint/format", "npm:16.0.0"],
             ["@commitlint/lint", "npm:16.0.0"],
             ["@commitlint/load", "npm:16.0.0"],
@@ -1576,7 +1576,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",
           "packageDependencies": [
             ["@johngw/react-component-mock", "workspace:."],
-            ["@commitlint/cli", "npm:16.0.2"],
+            ["@commitlint/cli", "npm:16.0.3"],
             ["@commitlint/config-conventional", "npm:16.0.0"],
             ["@types/jest", "npm:27.4.0"],
             ["@types/node", "npm:16.11.21"],
