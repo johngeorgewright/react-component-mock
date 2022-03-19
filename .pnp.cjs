@@ -37,7 +37,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@commitlint/config-conventional", "npm:16.2.1"],\
             ["@types/jest", "npm:27.4.1"],\
             ["@types/node", "npm:16.11.26"],\
-            ["@types/react", "npm:17.0.40"],\
+            ["@types/react", "npm:17.0.41"],\
             ["commitizen", "npm:4.2.4"],\
             ["concurrently", "npm:7.0.0"],\
             ["cz-conventional-changelog", "npm:3.3.0"],\
@@ -1591,7 +1591,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@commitlint/config-conventional", "npm:16.2.1"],\
             ["@types/jest", "npm:27.4.1"],\
             ["@types/node", "npm:16.11.26"],\
-            ["@types/react", "npm:17.0.40"],\
+            ["@types/react", "npm:17.0.41"],\
             ["commitizen", "npm:4.2.4"],\
             ["concurrently", "npm:7.0.0"],\
             ["cz-conventional-changelog", "npm:3.3.0"],\
@@ -1858,10 +1858,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@types/react", [\
-        ["npm:17.0.40", {\
-          "packageLocation": "./.yarn/cache/@types-react-npm-17.0.40-7487e5fdd0-24d1b210b5.zip/node_modules/@types/react/",\
+        ["npm:17.0.41", {\
+          "packageLocation": "./.yarn/cache/@types-react-npm-17.0.41-23f75ddbe5-1b086ec0ea.zip/node_modules/@types/react/",\
           "packageDependencies": [\
-            ["@types/react", "npm:17.0.40"],\
+            ["@types/react", "npm:17.0.41"],\
             ["@types/prop-types", "npm:15.7.4"],\
             ["@types/scheduler", "npm:0.16.2"],\
             ["csstype", "npm:3.0.10"]\
