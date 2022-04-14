@@ -36,7 +36,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@commitlint/cli", "npm:16.2.3"],\
             ["@commitlint/config-conventional", "npm:16.2.1"],\
             ["@types/jest", "npm:27.4.1"],\
-            ["@types/node", "npm:16.11.26"],\
+            ["@types/node", "npm:16.11.27"],\
             ["@types/react", "npm:18.0.4"],\
             ["commitizen", "npm:4.2.4"],\
             ["concurrently", "npm:7.1.0"],\
@@ -1590,7 +1590,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@commitlint/cli", "npm:16.2.3"],\
             ["@commitlint/config-conventional", "npm:16.2.1"],\
             ["@types/jest", "npm:27.4.1"],\
-            ["@types/node", "npm:16.11.26"],\
+            ["@types/node", "npm:16.11.27"],\
             ["@types/react", "npm:18.0.4"],\
             ["commitizen", "npm:4.2.4"],\
             ["concurrently", "npm:7.1.0"],\
@@ -1806,10 +1806,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "HARD"\
         }],\
-        ["npm:16.11.26", {\
-          "packageLocation": "./.yarn/cache/@types-node-npm-16.11.26-6163d95b7d-57757caaba.zip/node_modules/@types/node/",\
+        ["npm:16.11.27", {\
+          "packageLocation": "./.yarn/cache/@types-node-npm-16.11.27-f4555d5131-6ed0c8c4d2.zip/node_modules/@types/node/",\
           "packageDependencies": [\
-            ["@types/node", "npm:16.11.26"]\
+            ["@types/node", "npm:16.11.27"]\
           ],\
           "linkType": "HARD"\
         }],\
