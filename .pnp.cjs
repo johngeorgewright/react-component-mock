@@ -35,7 +35,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["@commitlint/cli", "npm:17.0.3"],\
             ["@commitlint/config-conventional", "npm:17.0.3"],\
-            ["@types/jest", "npm:28.1.5"],\
+            ["@types/jest", "npm:28.1.6"],\
             ["@types/node", "npm:16.11.44"],\
             ["@types/react", "npm:18.0.15"],\
             ["commitizen", "npm:4.2.4"],\
@@ -1658,7 +1658,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@johngw/react-component-mock", "workspace:."],\
             ["@commitlint/cli", "npm:17.0.3"],\
             ["@commitlint/config-conventional", "npm:17.0.3"],\
-            ["@types/jest", "npm:28.1.5"],\
+            ["@types/jest", "npm:28.1.6"],\
             ["@types/node", "npm:16.11.44"],\
             ["@types/react", "npm:18.0.15"],\
             ["commitizen", "npm:4.2.4"],\
@@ -1922,10 +1922,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@types/jest", [\
-        ["npm:28.1.5", {\
-          "packageLocation": "./.yarn/cache/@types-jest-npm-28.1.5-baa8088d99-994bfc25a5.zip/node_modules/@types/jest/",\
+        ["npm:28.1.6", {\
+          "packageLocation": "./.yarn/cache/@types-jest-npm-28.1.6-58c8989dba-f2ba5fbefc.zip/node_modules/@types/jest/",\
           "packageDependencies": [\
-            ["@types/jest", "npm:28.1.5"],\
+            ["@types/jest", "npm:28.1.6"],\
             ["jest-matcher-utils", "npm:28.1.1"],\
             ["pretty-format", "npm:28.1.1"]\
           ],\
@@ -6722,7 +6722,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/babel-jest", null],\
             ["@types/babel__core", null],\
             ["@types/esbuild", null],\
-            ["@types/jest", "npm:28.1.5"],\
+            ["@types/jest", "npm:28.1.6"],\
             ["@types/jest__types", null],\
             ["@types/typescript", null],\
             ["babel-jest", null],\
