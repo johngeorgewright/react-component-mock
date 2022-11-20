@@ -31,7 +31,7 @@
     "@types/node": "16.18.3",
     "@types/react": "18.0.25",
     "commitizen": "4.2.5",
-    "concurrently": "7.5.0",
+    "concurrently": "7.6.0",
     "cz-conventional-changelog": "3.3.0",
     "husky": "8.0.2",
     "jest": "28.1.3",
