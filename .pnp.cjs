@@ -39,7 +39,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["husky", "npm:8.0.3"],\
             ["jest", "virtual:b54e3235eab1847b2c9d45fe48de513779a9d427b25fc5e0b0a8158aeb37e5412e0cd772cbfc0cd7a450781ccf7ea3c911d76d4ad8fc5df584b1787c75190ddf#npm:28.1.3"],\
             ["lint-staged", "npm:13.2.0"],\
-            ["prettier", "npm:2.8.5"],\
+            ["prettier", "npm:2.8.6"],\
             ["react", "npm:18.2.0"],\
             ["rimraf", "npm:3.0.2"],\
             ["ts-jest", "virtual:b54e3235eab1847b2c9d45fe48de513779a9d427b25fc5e0b0a8158aeb37e5412e0cd772cbfc0cd7a450781ccf7ea3c911d76d4ad8fc5df584b1787c75190ddf#npm:28.0.8"],\
@@ -1661,7 +1661,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["husky", "npm:8.0.3"],\
             ["jest", "virtual:b54e3235eab1847b2c9d45fe48de513779a9d427b25fc5e0b0a8158aeb37e5412e0cd772cbfc0cd7a450781ccf7ea3c911d76d4ad8fc5df584b1787c75190ddf#npm:28.1.3"],\
             ["lint-staged", "npm:13.2.0"],\
-            ["prettier", "npm:2.8.5"],\
+            ["prettier", "npm:2.8.6"],\
             ["react", "npm:18.2.0"],\
             ["rimraf", "npm:3.0.2"],\
             ["ts-jest", "virtual:b54e3235eab1847b2c9d45fe48de513779a9d427b25fc5e0b0a8158aeb37e5412e0cd772cbfc0cd7a450781ccf7ea3c911d76d4ad8fc5df584b1787c75190ddf#npm:28.0.8"],\
@@ -6081,10 +6081,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["prettier", [\
-        ["npm:2.8.5", {\
-          "packageLocation": "./.yarn/cache/prettier-npm-2.8.5-3f60833fcb-b7f8d30e14.zip/node_modules/prettier/",\
+        ["npm:2.8.6", {\
+          "packageLocation": "./.yarn/cache/prettier-npm-2.8.6-24bd3d3356-8ac94fa67a.zip/node_modules/prettier/",\
           "packageDependencies": [\
-            ["prettier", "npm:2.8.5"]\
+            ["prettier", "npm:2.8.6"]\
           ],\
           "linkType": "HARD"\
         }]\
