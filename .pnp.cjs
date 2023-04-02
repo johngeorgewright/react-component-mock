@@ -110,7 +110,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["convert-source-map", "npm:1.8.0"],\
             ["debug", "virtual:c61bddeb28ff5847f1a465b4dddb837a3d099a22e15a9fe3124a47a7e2d4ac1c2af811c54e48451d4f63d1957aae19762d202c1b452ad077e0fae6b219584389#npm:4.3.3"],\
             ["gensync", "npm:1.0.0-beta.2"],\
-            ["json5", "npm:2.2.0"],\
+            ["json5", "npm:2.2.3"],\
             ["semver", "npm:6.3.0"],\
             ["source-map", "npm:0.5.7"]\
           ],\
@@ -133,7 +133,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["convert-source-map", "npm:1.8.0"],\
             ["debug", "virtual:c61bddeb28ff5847f1a465b4dddb837a3d099a22e15a9fe3124a47a7e2d4ac1c2af811c54e48451d4f63d1957aae19762d202c1b452ad077e0fae6b219584389#npm:4.3.3"],\
             ["gensync", "npm:1.0.0-beta.2"],\
-            ["json5", "npm:2.2.1"],\
+            ["json5", "npm:2.2.3"],\
             ["semver", "npm:6.3.0"]\
           ],\
           "linkType": "HARD"\
@@ -5022,18 +5022,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["json5", [\
-        ["npm:2.2.0", {\
-          "packageLocation": "./.yarn/cache/json5-npm-2.2.0-da49dc7cb5-e88fc5274b.zip/node_modules/json5/",\
+        ["npm:2.2.3", {\
+          "packageLocation": "./.yarn/cache/json5-npm-2.2.3-9962c55073-2a7436a933.zip/node_modules/json5/",\
           "packageDependencies": [\
-            ["json5", "npm:2.2.0"],\
-            ["minimist", "npm:1.2.5"]\
-          ],\
-          "linkType": "HARD"\
-        }],\
-        ["npm:2.2.1", {\
-          "packageLocation": "./.yarn/cache/json5-npm-2.2.1-44675c859c-74b8a23b10.zip/node_modules/json5/",\
-          "packageDependencies": [\
-            ["json5", "npm:2.2.1"]\
+            ["json5", "npm:2.2.3"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -7065,7 +7057,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["fast-json-stable-stringify", "npm:2.1.0"],\
             ["jest", "virtual:b54e3235eab1847b2c9d45fe48de513779a9d427b25fc5e0b0a8158aeb37e5412e0cd772cbfc0cd7a450781ccf7ea3c911d76d4ad8fc5df584b1787c75190ddf#npm:28.1.3"],\
             ["jest-util", "npm:28.0.2"],\
-            ["json5", "npm:2.2.1"],\
+            ["json5", "npm:2.2.3"],\
             ["lodash.memoize", "npm:4.1.2"],\
             ["make-error", "npm:1.3.6"],\
             ["semver", "npm:7.3.5"],\
