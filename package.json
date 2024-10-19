@@ -28,7 +28,7 @@
     "@commitlint/cli": "17.8.1",
     "@commitlint/config-conventional": "17.8.1",
     "@types/jest": "28.1.8",
-    "@types/node": "18.11.19",
+    "@types/node": "18.19.57",
     "@types/react": "18.2.31",
     "commitizen": "4.3.0",
     "concurrently": "7.6.0",

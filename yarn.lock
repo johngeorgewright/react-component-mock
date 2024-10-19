@@ -1192,7 +1192,7 @@ __metadata:
     "@commitlint/cli": 17.8.1
     "@commitlint/config-conventional": 17.8.1
     "@types/jest": 28.1.8
-    "@types/node": 18.11.19
+    "@types/node": 18.19.57
     "@types/react": 18.2.31
     commitizen: 4.3.0
     concurrently: 7.6.0
@@ -1448,10 +1448,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:18.11.19":
-  version: 18.11.19
-  resolution: "@types/node@npm:18.11.19"
-  checksum: d7cd19fcfc59cbdd3f9ba0b4072cb7adc21bd575bd8eb7d7e698975e63564aaa83f03434f32b12331f84f73d0b369d9cbe2371e359d9d7f5c3361f4987f4f7da
+"@types/node@npm:18.19.57":
+  version: 18.19.57
+  resolution: "@types/node@npm:18.19.57"
+  dependencies:
+    undici-types: ~5.26.4
+  checksum: d7be072513df5f6b14384dc284561ddf4e6393ce85b8fd3cc9ab0c0a7abd03bfdab6519548dab7c743ec9dfca9ce686dde2db0fbbf1d357e0822b4f99a54b193
   languageName: node
   linkType: hard
 
@@ -6134,6 +6136,13 @@ __metadata:
     tsc: bin/tsc
     tsserver: bin/tsserver
   checksum: 0f4da2f15e6f1245e49db15801dbee52f2bbfb267e1c39225afdab5afee1a72839cd86000e65ee9d7e4dfaff12239d28beaf5ee431357fcced15fb08583d72ca
+  languageName: node
+  linkType: hard
+
+"undici-types@npm:~5.26.4":
+  version: 5.26.5
+  resolution: "undici-types@npm:5.26.5"
+  checksum: 3192ef6f3fd5df652f2dc1cd782b49d6ff14dc98e5dced492aa8a8c65425227da5da6aafe22523c67f035a272c599bb89cfe803c1db6311e44bed3042fc25487
   languageName: node
   linkType: hard
 
